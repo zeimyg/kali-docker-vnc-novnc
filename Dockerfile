@@ -21,7 +21,7 @@ ENV VNCPWD 1234
 ENV VNCDISPLAY 1280x720
 ENV VNCDEPTH 16
 ENV NOVNCPORT 8080
-ENV TZ=America/Puerto Rico
+ENV TZ=America/Puerto_Rico
 
 # Crear usuario xar
 RUN useradd -rm -d /home/xar -s /bin/zsh -g root -G sudo -u 1001 xar && \
